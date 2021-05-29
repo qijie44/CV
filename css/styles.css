@@ -8,12 +8,17 @@ body{
 }
 
 section{
-  margin-top: 5.5%;
+  margin-top: 90px;
 }
 
 /* Classes */
 .navbar{
   background-color: #51c4d3;
+}
+
+.home{
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .nav-item{
@@ -45,13 +50,9 @@ section{
 }
 
 .title-image{
-  max-width: 60%;
+  max-width: 67.35rem;
   height: auto;
   padding-top: 0.5%;
 }
 
 /* IDs */
-#Home{
-  text-align: center;
-  font-size: 1.5rem;
-}
