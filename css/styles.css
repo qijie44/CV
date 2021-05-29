@@ -1,55 +1,54 @@
 /* Using https://colorhunt.co/palette/273466 color palette */
-
-body{
+body {
   margin: 0;
   background-color: #d8e3e7;
-  font-family: "Roboto-medium", sans-serif;
   color: #132c33;
+  font-family: "Roboto-medium", sans-serif;
 }
 
-section{
+section {
   margin-top: 90px;
 }
 
 /* Classes */
-.navbar{
+.navbar {
   background-color: #51c4d3;
 }
 
-.home{
+.home {
   text-align: center;
   font-size: 1.5rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 1rem;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.25rem;
   font-weight: bolder;
   color: #126e82;
 }
 
-.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+.navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus {
   color: #132c33;
 }
 
-.floating-left-image{
+.floating-left-image {
   max-width: 18rem;
 }
 
-.name{
+.name {
   font-size: 5.5rem;
   font-family: "Permanent Marker", cursive;
 }
 
-.floating-right-image{
+.floating-right-image {
   max-width: 24rem;
   transform: rotate(25deg);
 }
 
-.title-image{
+.title-image {
   max-width: 67.35rem;
   height: auto;
   padding-top: 0.5%;
