@@ -71,12 +71,12 @@ section {
 .skill-label {
   position: relative;
   left: 10.2rem;
-  top: 18.5rem;
   font-size: 0.8rem;
+  width: 160px;
 }
 
 .four-skills-label{
-  top:-6.2rem;
+  top:-7.4rem;
 }
 
 .three-skills-label{
