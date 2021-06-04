@@ -60,21 +60,25 @@ section {
 /* About */
 
 /* Skills */
-.skills-container{
-  height: 18rem;
-  width: 18rem;
-  overflow: hidden;
-  border-radius: 75%;
-  margin: auto;
-  align-content: center;
+.chart-container {
+    height: 377.6px;
+    width: 320px;
+    margin: auto;
 }
 
-.skills-image{
-  max-width: 30rem;
-  position: relative;
-  left: -6rem;
+.skill-label {
+    position: relative;
+    left: 10.2rem;
+    top: 18.5rem;
+    font-size: 0.8rem;
+    /* display:inline; */
 }
 
+.chart {
+    transform: rotate(90deg);
+    position: absolute;
+    width: inherit;
+}
 
 /* Tablets */
 @media (max-width:970px) and (min-width:768px){
