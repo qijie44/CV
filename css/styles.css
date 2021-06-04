@@ -1,6 +1,6 @@
 /* Using https://colorhunt.co/palette/273466 color palette */
 
-/* Desktop CSS */
+/* General CSS */
 body {
   margin: 0;
   background-color: #d8e3e7;
@@ -12,7 +12,7 @@ section {
   margin-top: 90px;
 }
 
-/* Navbar classes */
+/* Navbar */
 .navbar {
   background-color: #51c4d3;
 }
@@ -31,7 +31,7 @@ section {
   color: #132c33;
 }
 
-/* Home clases */
+/* Home */
 .home {
   text-align: center;
   font-size: 1.5rem;
@@ -56,9 +56,48 @@ section {
   padding-top: 0.5%;
 }
 
-/* IDs */
+/* About */
 
+/* Skills */
+.chart-container {
+  width: 320px;
+  margin: auto;
+}
 
+.chart {
+    transform: rotate(90deg);
+}
+
+.skill-label {
+  position: relative;
+  left: 10.2rem;
+  top: 18.5rem;
+  font-size: 0.8rem;
+}
+
+.four-skills-label{
+  top:-6.2rem;
+}
+
+.three-skills-label{
+  top:-5rem;
+}
+
+.skill-label-four{
+  color: #72147e
+}
+
+.skill-label-three{
+  color: #f21170
+}
+
+.skill-label-two{
+  color: #fa9905
+}
+
+.skill-label-one{
+  color: #ff5200
+}
 /* Tablets */
 @media (max-width:970px) and (min-width:768px){
   :root{
