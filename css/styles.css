@@ -6,10 +6,20 @@ body {
   background-color: #d8e3e7;
   color: #132c33;
   font-family: "Roboto-medium", sans-serif;
+  text-align: center;
 }
 
 section {
-  margin-top: 90px;
+  padding-top: 80px;
+}
+
+.section-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+}
+
+.section-writeup{
+  margin-bottom: 1.5rem;
 }
 
 /* Navbar */
@@ -65,7 +75,7 @@ section {
 }
 
 .chart {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .skill-label {
@@ -73,6 +83,7 @@ section {
   left: 10.2rem;
   font-size: 0.8rem;
   width: 190px;
+  text-align: left;
 }
 
 .four-skills-label{
@@ -84,24 +95,39 @@ section {
 }
 
 .skill-label-four{
-  color: #72147e
+  color: #72147e;
 }
 
 .skill-label-three{
-  color: #f21170
+  color: #f21170;
 }
 
 .skill-label-two{
-  color: #fa9905
+  color: #fa9905;
 }
 
 .skill-label-one{
-  color: #ff5200
+  color: #ff5200;
 }
+
+/* Contact Me */
+.btn-light{
+  background-color: #51c4d3;
+  border: 0;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #126e82;
+}
+
+.btn-light:hover, .btn-light:focus {
+  background-color: #51c4d3;
+  color: #132c33;
+}
+
 /* Tablets */
 @media (max-width:970px) and (min-width:768px){
   :root{
-    font-size: 75%
+    font-size: 75%;
   }
 }
 
