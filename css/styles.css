@@ -1,5 +1,4 @@
 /* Using https://colorhunt.co/palette/273466 color palette */
-
 /* General CSS */
 body {
   margin: 0;
@@ -18,7 +17,7 @@ section {
   font-size: 3rem;
 }
 
-.section-writeup{
+.section-writeup {
   margin-bottom: 1.5rem;
 }
 
@@ -67,7 +66,6 @@ section {
 }
 
 /* About */
-
 /* Skills */
 .chart-container {
   width: 320px;
@@ -84,39 +82,51 @@ section {
   font-size: 0.8rem;
   width: 190px;
   text-align: left;
+  /* visibility: hidden; */
 }
 
-.four-skills-label{
-  top:-6.2rem;
+.chart-container:hover>.chart>.radial-bar, .chart-container:active>.chart>.radial-bar {
+  visibility: visible;
+  animation: radial-bar-fill 1s reverse;
 }
 
-.three-skills-label{
-  top:-5rem;
+.chart-container:hover>.skill-label, .chart-container:active>.skill-label, .chart-container:focus>.skill-label{
+  visibility: visible;
+  animation: text-appear 2s;
 }
 
-.skill-label-four{
+.four-skills-label {
+  top: -6.2rem;
+}
+
+.three-skills-label {
+  top: -5rem;
+}
+
+.skill-label-four {
   color: #72147e;
 }
 
-.skill-label-three{
+.skill-label-three {
   color: #f21170;
 }
 
-.skill-label-two{
+.skill-label-two {
   color: #fa9905;
 }
 
-.skill-label-one{
+.skill-label-one {
   color: #ff5200;
 }
 
 /* Contact Me */
-.btn-light{
+.btn-light {
   background-color: #51c4d3;
   border: 0;
   font-size: 1.25rem;
   font-weight: bolder;
   color: #126e82;
+  margin-bottom: 1rem;
 }
 
 .btn-light:hover, .btn-light:focus {
@@ -125,15 +135,32 @@ section {
 }
 
 /* Tablets */
-@media (max-width:970px) and (min-width:768px){
-  :root{
+@media (max-width:970px) and (min-width:768px) {
+  :root {
     font-size: 75%;
   }
 }
 
 /* Mobile */
 @media (max-width:768px) {
-  .home-floating-image{
+  .home-floating-image {
     display: none;
+  }
+}
+
+/* Keyframes */
+@keyframes radial-bar-fill {
+  to {
+    stroke-dasharray: 0 126;
+  }
+}
+
+@keyframes text-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
   }
 }
