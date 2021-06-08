@@ -69,6 +69,7 @@ section {
 /* Skills */
 .chart-container {
   width: 320px;
+  height: 400px;
   margin: auto;
 }
 
@@ -82,7 +83,30 @@ section {
   font-size: 0.8rem;
   width: 190px;
   text-align: left;
-  /* visibility: hidden; */
+  visibility: hidden;
+}
+
+.radial-bar{
+  visibility: hidden;
+}
+
+.skill-cover {
+  position: relative;
+  background-color: #51c4d3;
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  top:-379px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.skill-cover-fourlabels{
+  top:-395px;
+}
+
+.skillcategory-label{
+  margin: auto;
 }
 
 .chart-container:hover>.chart>.radial-bar, .chart-container:active>.chart>.radial-bar {
@@ -90,9 +114,13 @@ section {
   animation: radial-bar-fill 1s reverse;
 }
 
-.chart-container:hover>.skill-label, .chart-container:active>.skill-label, .chart-container:focus>.skill-label{
+.chart-container:hover>.skill-label, .chart-container:active>.skill-label {
   visibility: visible;
   animation: text-appear 2s;
+}
+
+.chart-container:hover>.skill-cover{
+  visibility: hidden;
 }
 
 .four-skills-label {
