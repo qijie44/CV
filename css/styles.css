@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  padding-top: 80px;
+  padding: 70px 0px 10px;
 }
 
 .section-title {
@@ -175,6 +175,11 @@ section {
 .btn-light:hover, .btn-light:focus {
   background-color: #51c4d3;
   color: #132c33;
+}
+
+/* Footer */
+footer{
+  text-align: left;
 }
 
 /* Tablets */
