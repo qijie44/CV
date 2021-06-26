@@ -1,4 +1,5 @@
 /* Using https://colorhunt.co/palette/273466 color palette */
+/* Using https://colorhunt.co/palette/00000052057b892cdcbc6ff1 color palette for graphs*/
 /* General CSS */
 body {
   margin: 0;
@@ -143,23 +144,23 @@ section {
 }
 
 .skill-four {
-  color: #72147e;
-  stroke: #72147e;
+  color: #000000;
+  stroke: #000000;
 }
 
 .skill-three {
-  color: #f21170;
-  stroke: #f21170;
+  color: #52057B;
+  stroke: #52057B;
 }
 
 .skill-two {
-  color: #fa9905;
-  stroke: #fa9905;
+  color: #892CDC;
+  stroke: #892CDC;
 }
 
 .skill-one {
-  color: #ff5200;
-  stroke: #ff5200;
+  color: #BC6FF1;
+  stroke: #BC6FF1;
 }
 
 /* Contact Me */
