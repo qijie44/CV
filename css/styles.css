@@ -6,6 +6,7 @@ body {
   color: #132c33;
   font-family: "Roboto-medium", sans-serif;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 section {
@@ -15,6 +16,7 @@ section {
 .section-title {
   font-family: "Permanent Marker", cursive;
   font-size: 3rem;
+  margin-bottom: 1.2rem;
 }
 
 .section-writeup {
@@ -66,6 +68,12 @@ section {
 }
 
 /* About */
+.about-writeup{
+  /* max-width of tablets */
+  max-width:970px;
+  margin: auto;
+}
+
 /* Skills */
 .chart-container {
   width: 320px;
