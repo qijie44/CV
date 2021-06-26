@@ -88,7 +88,10 @@ section {
 
 .radial-bar{
   visibility: hidden;
+  fill: none;
+  stroke-width: 3;
 }
+
 
 .skill-cover {
   position: relative;
@@ -131,20 +134,24 @@ section {
   top: -5rem;
 }
 
-.skill-label-four {
+.skill-four {
   color: #72147e;
+  stroke: #72147e;
 }
 
-.skill-label-three {
+.skill-three {
   color: #f21170;
+  stroke: #f21170;
 }
 
-.skill-label-two {
+.skill-two {
   color: #fa9905;
+  stroke: #fa9905;
 }
 
-.skill-label-one {
+.skill-one {
   color: #ff5200;
+  stroke: #ff5200;
 }
 
 /* Contact Me */
