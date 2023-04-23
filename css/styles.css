@@ -119,6 +119,7 @@ section {
 
 .skillcategory-label{
   margin: auto;
+  padding-top: ;
 }
 
 .chart-container:hover>.chart>.radial-bar, .chart-container:active>.chart>.radial-bar {
@@ -161,6 +162,13 @@ section {
 .skill-one {
   color: #BC6FF1;
   stroke: #BC6FF1;
+}
+
+/* Publications */
+.publications-writeup{
+  /* max-width of tablets */
+  max-width:970px;
+  margin: auto;
 }
 
 /* Contact Me */
