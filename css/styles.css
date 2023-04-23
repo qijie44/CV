@@ -49,6 +49,14 @@ section {
   font-size: 1.5rem;
 }
 
+#home-side-images{
+  width: 32%;
+}
+
+#home-main-title{
+  width: 36%;
+}
+
 .floating-left-image {
   max-width: 18rem;
 }
