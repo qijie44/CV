@@ -130,6 +130,11 @@ section {
   padding-top: ;
 }
 
+.skillcategory-image{
+  width: 320px;
+  height: 320px;
+}
+
 .chart-container:hover>.chart>.radial-bar, .chart-container:active>.chart>.radial-bar {
   visibility: visible;
   animation: radial-bar-fill 1s reverse;
