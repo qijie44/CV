@@ -216,6 +216,15 @@ footer{
   .home-floating-image {
     display: none;
   }
+
+  #home-side-images {
+    width: 0;
+    padding: 0;
+  }
+
+  #home-main-title{
+    width: 100%;
+  }
 }
 
 /* Keyframes */
